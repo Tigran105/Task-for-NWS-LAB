@@ -1,0 +1,15 @@
+@import "_main.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.App {
+  background: $contentColor;
+}

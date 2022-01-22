@@ -1,0 +1,18 @@
+@import "../../main";
+.moreButton{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 1rem;
+  border-radius: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  border: 2px solid red;
+  color: white;
+  background: $headerColor;
+  transition: background 0.5s, color 0.5s;
+  &:hover{
+    background: $contentColor;
+    color: black;
+  }
+}
